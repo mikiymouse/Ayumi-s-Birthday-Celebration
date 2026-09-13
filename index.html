@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undangan Ulang Tahun</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="opening" class="opening">
+    <div class="opening-card">
+      <p class="eyebrow">YOU ARE INVITED</p>
+      <h1>Ayumi’s unFOURgettable<br>KPOP Party</h1>
+      <p><strong id="coverName">Nama Kamu</strong></p>
+      <button id="openBtn" class="gold-btn">OPEN INVITATION</button>
+      <p class="music-note">KLIK OPEN INVITATION UNTUK MELANJUTKAN</p>
+    </div>
+  </div>
+
+  <audio id="music" loop preload="auto">
+    <source src="musik.mp3" type="audio/mpeg">
+  </audio>
+
+  <button id="musicBtn" class="music-btn" aria-label="Putar musik">🔇</button>
+
+  <main>
+    <section class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">A SPECIAL DAY</p>
+        <h1 id="heroName">Nama Kamu</h1>
+        <div class="age"><span id="heroAge">25</span><sup>th</sup></div>
+        <p>Birthday Celebration</p>
+        <p class="date" id="heroDate">20 Desember 2026</p>
+      </div>
+    </section>
+
+    <section class="section intro">
+      <p class="eyebrow">HELLO!</p>
+      <h2>Let's Celebrate Together</h2>
+      <p>
+        I’d be so happy to have you with me on my special day. 
+        Having you there would make the moment even more special 💕
+      </p>
+    </section>
+
+    <section class="section details">
+      <p class="eyebrow">THE CELEBRATION</p>
+      <h2>Birthday Party</h2>
+      <div class="detail-grid">
+        <div><span>📅</span><strong id="detailDate">20 Desember 2026</strong></div>
+        <div><span>⏰</span><strong id="detailTime">19.00 WIB</strong></div>
+        <div><span>📍</span><strong id="detailPlace">Nama Tempat</strong><small id="detailAddress">Alamat acara</small></div>
+      </div>
+      <a id="mapsBtn" class="outline-btn" href="#" target="_blank" rel="noopener">VIEW LOCATION</a>
+    </section>
+
+    <section class="section countdown-section">
+      <p class="eyebrow">COUNTING DOWN</p>
+      <h2>See You At The Party</h2>
+      <div class="countdown">
+        <div><b id="days">00</b><span>Days</span></div>
+        <div><b id="hours">00</b><span>Hours</span></div>
+        <div><b id="minutes">00</b><span>Minutes</span></div>
+        <div><b id="seconds">00</b><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="section gallery">
+      <p class="eyebrow">MEMORIES</p>
+      <h2>Photo Gallery</h2>
+      <div class="photos">
+        <img src="FOTO-1.jpg" alt="Foto 1">
+        <img src="FOTO-2.jpg" alt="Foto 2">
+        <img src="FOTO-3.jpg" alt="Foto 3">
+        <img src="FOTO-4.jpg" alt="Foto 4">
+        <img src="FOTO-5.jpg" alt="Foto 5">
+        <img src="FOTO-6.jpg" alt="Foto 6">
+      </div>
+    </section>
+
+    <section class="section rsvp">
+      <p class="eyebrow">RSVP</p>
+      <h2>Will You Join Me?</h2>
+      <p>Your presence would mean so much to me. ❤️</p>
+      <div class="rsvp-buttons">
+        <a id="yesBtn" class="gold-btn" href="#" target="_blank" rel="noopener">YES, I'LL COME</a>
+        <a id="noBtn" class="outline-btn" href="#" target="_blank" rel="noopener">SORRY, CAN'T COME</a>
+      </div>
+    </section>
+
+    <section class="section closing">
+      <p class="eyebrow">THANK YOU</p>
+      <h2>See You There!</h2>
+      <p>Thank you for being part of this special moment.</p>
+      <h3 id="closingName">Nama Kamu</h3>
+    </section>
+  </main>
+
+  <footer>Made with ♥ for a special day</footer>
+  <script src="script.js"></script>
+</body>
+</html>
