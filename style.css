@@ -28,7 +28,7 @@ body {
 body.locked{overflow:hidden}
 h1,h2,h3{font-family:"Cormorant Garamond",serif;margin:0}
 h2{font-size:clamp(38px,7vw,62px);line-height:1}
-p{line-height:1.8;color:var(--muted)}
+p{line-height:1.8;color: #bdb7aa00;}
 .opening {
     position: fixed;
     inset: 0;
