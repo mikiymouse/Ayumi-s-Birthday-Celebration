@@ -58,7 +58,7 @@ p{line-height:1.8;color:var(--muted)}
     text-align: center;
 }
 .eyebrow{letter-spacing:4px;font-size:11px;color:var(--gold);font-weight:600}
-.opening h1{font-size:clamp(58px,11vw,100px);line-height:.82;margin:18px 0}
+.opening h1{font-size:clamp(40px,11vw,100px);line-height:.82;margin:18px 0}
 .opening p{margin:8px 0 28px}
 .gold-btn,.outline-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 24px;text-decoration:none;font-size:11px;font-weight:700;letter-spacing:2px;cursor:pointer;border-radius:2px}
 .gold-btn{border:1px solid var(--gold);background:var(--gold);color:#111}
