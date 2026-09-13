@@ -26,9 +26,7 @@ body {
     background-attachment: fixed;
 }
 body.locked{overflow:hidden}
-h1,h2,h3{
-  font-family:"Cormorant Garamond",serif
-}
+h1,h2,h3{font-family:"Cormorant Garamond",serif;margin:0}
 h2{font-size:clamp(38px,7vw,62px);line-height:1}
 p{line-height:1.8;color:var(--muted)}
 .opening {
@@ -38,11 +36,11 @@ p{line-height:1.8;color:var(--muted)}
 
     background-color: #050505;
 
-   background-image: 
-                    linear-gradient(
-                        rgb(25 0 51 / 61%), 
-                        rgb(11 0 73 / 8%)), 
-                        url(opening.png);
+    background-image: 
+    linear-gradient(
+        rgb(25 0 51 / 61%), 
+        rgb(11 0 73 / 8%)), 
+        url(opening.png);
 
     background-size: cover;
     background-position: center;
@@ -60,7 +58,7 @@ p{line-height:1.8;color:var(--muted)}
     text-align: center;
 }
 .eyebrow{letter-spacing:4px;font-size:11px;color:var(--gold);font-weight:600}
-.opening h1{font-size:clamp(30px,11vw,100px);line-height:1.05;margin:18px 0}
+.opening h1{font-size:clamp(58px,11vw,100px);line-height:.82;margin:18px 0}
 .opening p{margin:8px 0 28px}
 .gold-btn,.outline-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 24px;text-decoration:none;font-size:11px;font-weight:700;letter-spacing:2px;cursor:pointer;border-radius:2px}
 .gold-btn{border:1px solid var(--gold);background:var(--gold);color:#111}
@@ -75,14 +73,14 @@ p{line-height:1.8;color:var(--muted)}
   place-items:center;
   text-align:center;
 
-  background:
+  background: 
     linear-gradient(
-      rgba(0,0,0,.35),
-      rgba(0,0,0,.75)
-    ),
-    url("download.png") center/cover no-repeat;
+      rgb(78 43 225 / 19%), 
+      rgb(25 0 73 / 46%)
+    ), 
+    url(download.png) center / cover no-repeat;
 }
-.hero .overlay{position:absolute;inset:0;background: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 0%));}
+.hero .overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,.72))}
 .hero-content{position:relative;z-index:1;padding:30px}
 .hero h1{font-size:clamp(70px,14vw,150px);line-height:.72;text-shadow:0 5px 30px #000}
 .age{font-family:"Cormorant Garamond",serif;color:var(--gold-light);font-size:clamp(55px,10vw,90px);margin:25px 0 0}
